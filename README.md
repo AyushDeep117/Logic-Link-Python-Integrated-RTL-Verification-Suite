@@ -12,3 +12,8 @@ Tech Stack
 - **Languages:** Verilog (RTL), Python (Automation Scripting)
 - **Tools:** Xilinx Vivado / ModelSim
 - **Methodology:** Functional Verification & Automated Log Parsing
+
+Verification Infrastructure
+- **Self-Checking Testbench:** Developed in Verilog with randomized stimulus generation to validate both combinational and sequential behavior.
+- **Python Triage Tool:** A custom script (tri_tool.py) that parses Vivado simulation logs to automatically identify functional mismatches and root causes.
+- **Regression Automation:**Uses a Windows Batch script (lazy_run.bat) to execute the entire test suite, export logs, and trigger the triage tool in a single command.
