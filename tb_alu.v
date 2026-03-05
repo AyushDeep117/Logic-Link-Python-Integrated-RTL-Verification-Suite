@@ -21,4 +21,7 @@ module tb_alu;
         $display("Simulation Finished.");
         $finish;
     end
+                                                                                                                                                                                        
+                                                                                                                                                  
+//changed the 4bit multiplier module to a more elusive 8bit alu with parametric inputs............................................
 endmodule
